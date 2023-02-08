@@ -1,13 +1,13 @@
 {
-  "name": "project",
+  "name": "@luan11/software-quality-and-metrics-tdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Practices of Software Quality and Metrics class",
   "main": "index.js",
   "scripts": {
     "start:dev": "npx nodemon",
     "test": "jest --coverage"
   },
-  "author": "",
+  "author": "Luan Santos",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.4.0",
