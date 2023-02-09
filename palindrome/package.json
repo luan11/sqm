@@ -1,7 +1,7 @@
 {
-  "name": "@luan11/software-quality-and-metrics-tdd",
+  "name": "@luan11/palindrome",
   "version": "1.0.0",
-  "description": "Practices of Software Quality and Metrics class",
+  "description": "An exercise proposed in the Software Quality and Metrics class",
   "main": "index.js",
   "scripts": {
     "start:dev": "npx nodemon",
