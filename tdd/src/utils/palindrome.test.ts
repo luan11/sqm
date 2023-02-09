@@ -16,10 +16,10 @@ describe(`Palindrome`, () => {
       `Socorram-me subi no ônibus em marrocos`,
     ];
 
-    it(`Should return true`, () => {
-      sentences.forEach((sentence) => {
-        expect(palindrome(sentence)).toBeTruthy();
-      });
+    it.each(sentences)(`Should be return true to "%s"`, (sentence) => {
+      const isPalindrome = palindrome(sentence);
+
+      expect(isPalindrome).toBeTruthy();
     });
   });
 
@@ -33,10 +33,10 @@ describe(`Palindrome`, () => {
       `Wild imagination!`,
     ];
 
-    it(`Should return false`, () => {
-      sentences.forEach((sentence) => {
-        expect(palindrome(sentence)).toBeFalsy();
-      });
+    it.each(sentences)(`Should be return false to "%s"`, (sentence) => {
+      const isPalindrome = palindrome(sentence);
+
+      expect(isPalindrome).toBeFalsy();
     });
   });
 });
